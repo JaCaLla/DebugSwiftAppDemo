@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		29FE1B6D2D0302F1005AA11D /* DebugSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 29FE1B6C2D0302F1005AA11D /* DebugSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		29FE1B4F2D0300AB005AA11D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FE1B6D2D0302F1005AA11D /* DebugSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = DebugSwiftAppDemo;
 			packageProductDependencies = (
+				29FE1B6C2D0302F1005AA11D /* DebugSwift */,
 			);
 			productName = DebugSwiftAppDemo;
 			productReference = 29FE1B3E2D0300A9005AA11D /* DebugSwiftAppDemo.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 29FE1B352D0300A9005AA11D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				29FE1B6B2D0302F1005AA11D /* XCRemoteSwiftPackageReference "DebugSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 29FE1B3F2D0300A9005AA11D /* Products */;
 			projectDirPath = "";
@@ -321,6 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -329,6 +339,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -378,12 +389,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -558,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29FE1B6B2D0302F1005AA11D /* XCRemoteSwiftPackageReference "DebugSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DebugSwift/DebugSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29FE1B6C2D0302F1005AA11D /* DebugSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29FE1B6B2D0302F1005AA11D /* XCRemoteSwiftPackageReference "DebugSwift" */;
+			productName = DebugSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 29FE1B362D0300A9005AA11D /* Project object */;
 }
