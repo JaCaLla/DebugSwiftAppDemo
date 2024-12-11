@@ -1,6 +1,6 @@
 # DebugSwiftDemoApp with DebugSwift Integration
 
-DebugSwiftDemoApp is a simple Swift-based application showcasing the integration of **DebugSwift**—a powerful debugging tool designed to simplify debugging and streamline the development workflow.
+DebugSwiftDemoApp is a simple Swift-based application showcasing the integration of **DebugSwift**—a powerful debugging tool designed to simplify debugging and streamline the development workflow. This is the base code referenced in the post [DebugSwift: Streamline Your Debugging Workflow](https://javios.eu/blog)
 
 ## Features
 
